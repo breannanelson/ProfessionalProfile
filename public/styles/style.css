@@ -1,0 +1,38 @@
+#resume-icon {
+    background: black;
+}
+
+#resume-icon, #linkedIn-icon, #github-icon {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+}
+
+#resume-icon:hover, #linkedIn-icon:hover, #github-icon:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+
+
+/* #carousel1 {
+    background: url(../images/carousel1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+
+/* #carousel1::after {
+    width:100%;
+    height: 100%;
+    content: "";
+    background: url(../images/black_background.png);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  } */
